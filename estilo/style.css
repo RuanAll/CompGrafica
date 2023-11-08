@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 97vh;
+    padding-top: 20px;
+    background-image: url("../img/abstrato-de-luxo-macio-fundo-vermelho-design-de-layout-de-dia-dos-namorados-de-natal-modelo-de-web-de-estudio-relatorio-de-negocios-com-cor-gradiente-de-circulo-suave.jpg");
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8%;
+}
+.logo > img{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    height: 95%;
+    display: flex;
+}
+.conteudo{
+    position: relative;
+    margin: 0 auto;
+    width: 35%;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+.conteudo > p{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+}
+
+
+h1 {
+    color: white;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+p{
+    color: white;
+    font-family: 'Krub', sans-serif;
+}
+
+button {
+    margin-top: 40px;
+    width: 40%;
+    text-shadow: rgba(0, 0, 0, 0.623) 0px 0px 3px;
+    background-color: #750101 ;
+    color: #fff;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.336) 0px 0px 5px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #bb0b0b;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 99.2%;
+    padding: 5px;
+    background-color: #750101;
+}
